@@ -12,27 +12,11 @@ import base from './base'
 
 class App extends Component {
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      contador: 1
-    }
-  }
-
-  componentDidMount() {
-    base.syncState('contador', {
-      context: this,
-      state: 'contador',
-      asArray: false
-    })
-  }
-
   render() {
     return (
       <Router>
         <div>
           <Header />
-        <div><h1>Contador: {this.state.contador}</h1></div>
           <Route exact path='/' component={Home} />
           <Route path='/sobre' component={Sobre} />
           <Route path='/campanhas' component={Campanhas} />
