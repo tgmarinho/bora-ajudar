@@ -8,6 +8,8 @@ import Campanhas from './Campanhas'
 import Contato from './Contato'
 import Footer from './Footer'
 
+import Admin from './Admin';
+
 import base from './base'
 
 class App extends Component {
@@ -21,6 +23,8 @@ class App extends Component {
           <Route path='/sobre' component={Sobre} />
           <Route path='/campanhas' component={Campanhas} />
           <Route path='/contato' component={Contato} />
+          <Route path='/admin' component={Admin} />
+
           <Footer />
         </div>
       </Router>
