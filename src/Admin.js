@@ -23,18 +23,16 @@ class Admin extends Component {
         })
     }
 
-
-
     render() {
 
         if (this.state.isAuthing) {
             return <p>Aguarde...</p>
         }
-        
-        if(!this.state.isLoggedIn) {
+
+        if (!this.state.isLoggedIn) {
             return <Redirect to='/login' />
         }
-        
+
         return (
             <div>
                 <h1>Admin {JSON.stringify(this.state)}</h1>
@@ -42,10 +40,6 @@ class Admin extends Component {
 
         )
     }
-
-
-
-
 
 }
 
