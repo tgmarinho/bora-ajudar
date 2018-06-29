@@ -11,8 +11,6 @@ import Footer from './Footer'
 import Admin from './Admin'
 import Login from './Login'
 
-import base from './base'
-
 class App extends Component {
 
   render() {

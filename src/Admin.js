@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import { auth } from './base'
-import { Redirect } from 'react-router-dom'
+import { Redirect, Route } from 'react-router-dom'
+import AdminCampanhas from './AdminCampanhas'
+
+const AdminHome = props => <p>Seja bem vindo!</p>
 
 class Admin extends Component {
 
@@ -34,10 +37,13 @@ class Admin extends Component {
         }
 
         return (
-            <div>
-                <h1>Admin {JSON.stringify(this.state)}</h1>
+            <div className='card'>
+                <h1>Painel administrativo</h1>
+                <Route path='/' component={AdminHome} />
+                <Route
+                    path={`${this.props.match.url}/campanhas`}
+                    component={AdminCampanhas} />
             </div>
-
         )
     }
 
