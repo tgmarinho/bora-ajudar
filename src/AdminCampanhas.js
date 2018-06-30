@@ -18,8 +18,23 @@ class AdminCampanhas extends Component {
         })
     }
 
-    renderCampanha(campanha) {
-        return <li>{campanha.nome}</li>
+    removeCampanha = key => {
+        // removo a key recebida pelo parametro e atribuo o restante dos itens do array para newCampanhas
+        // bonus para imutabilidade, quando manipula o estado é bom manter imutal, criando outros item na operação
+        const { [key]: undefined, ...campanhas } = this.state.campanhas
+        this.setState({
+            campanhas
+        })
+    }
+
+    renderCampanha = (key, campanha) => {
+        return (
+            <li key={key}>
+                {campanha.nome}
+                &nbsp;
+            <button onClick={() => 1}>Editar</button>
+                <button onClick={() => this.removeCampanha(key)}>Remover</button>
+            </li>)
     }
 
     render() {
@@ -27,7 +42,7 @@ class AdminCampanhas extends Component {
             <div>
                 <h1>Campanhas</h1>
                 <ul>
-                    {Object.keys(this.state.campanhas).map(key => this.renderCampanha(this.state.campanhas[key]))}
+                    {Object.keys(this.state.campanhas).map(key => this.renderCampanha(key, this.state.campanhas[key]))}
 
                 </ul>
             </div>
