@@ -19,12 +19,9 @@ class AdminCampanhas extends Component {
     }
 
     removeCampanha = key => {
-        // removo a key recebida pelo parametro e atribuo o restante dos itens do array para newCampanhas
-        // bonus para imutabilidade, quando manipula o estado é bom manter imutal, criando outros item na operação
-        const { [key]: undefined, ...campanhas } = this.state.campanhas
-        this.setState({
-            campanhas
-        })
+       base.remove('campanhas/'+key, err => {
+           console.log(err)
+       })
     }
 
     renderCampanha = (key, campanha) => {
