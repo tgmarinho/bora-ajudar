@@ -1,0 +1,149 @@
+[debug] [2018-07-02T22:24:59.424Z] ----------------------------------------------------------------------
+[debug] [2018-07-02T22:24:59.428Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2018-07-02T22:24:59.428Z] CLI Version:   3.19.2
+[debug] [2018-07-02T22:24:59.429Z] Platform:      linux
+[debug] [2018-07-02T22:24:59.429Z] Node Version:  v8.11.3
+[debug] [2018-07-02T22:24:59.429Z] Time:          Mon Jul 02 2018 18:24:59 GMT-0400 (-04)
+[debug] [2018-07-02T22:24:59.429Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-02T22:24:59.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-07-02T22:24:59.444Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/tgmarinho/developer/bora-ajudar
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-07-02T22:25:11.863Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-02T22:25:11.864Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/D0KXL7n4GOYjB0cLrHeL1GIGF06bWbeOmx_2Ly9XmfjWd-3PJTBUw1Ar0mA0YHl8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jul 02 2018 18:25:11 GMT-0400 (-04)
+[debug] [2018-07-02T22:25:12.269Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T22:25:12.302Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Mon Jul 02 2018 18:25:12 GMT-0400 (-04)
+[debug] [2018-07-02T22:25:13.770Z] Error: self signed certificate in certificate chain
+    at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:639:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+[error] 
+[error] Error: Server Error. self signed certificate in certificate chain
+[debug] [2018-07-02T22:25:32.061Z] ----------------------------------------------------------------------
+[debug] [2018-07-02T22:25:32.064Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2018-07-02T22:25:32.064Z] CLI Version:   3.19.2
+[debug] [2018-07-02T22:25:32.064Z] Platform:      linux
+[debug] [2018-07-02T22:25:32.064Z] Node Version:  v8.11.3
+[debug] [2018-07-02T22:25:32.064Z] Time:          Mon Jul 02 2018 18:25:32 GMT-0400 (-04)
+[debug] [2018-07-02T22:25:32.065Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-02T22:25:32.079Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-07-02T22:25:32.079Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/tgmarinho/developer/bora-ajudar
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-07-02T22:25:35.669Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Mon Jul 02 2018 18:25:35 GMT-0400 (-04)
+[debug] [2018-07-02T22:25:38.604Z] <<< HTTP RESPONSE 200
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2018-07-02T22:25:50.702Z] >>> HTTP REQUEST GET https://bora-ajudar-tg.firebaseio.com/.settings/rules.json  
+  
+ Mon Jul 02 2018 18:25:50 GMT-0400 (-04)
+[debug] [2018-07-02T22:25:53.141Z] <<< HTTP RESPONSE 200
+[info] ✔  Database Rules for bora-ajudar-tg have been downloaded to database.rules.json.
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2018-07-02T22:25:53.145Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-02T22:25:53.145Z] > authorizing via signed-in user
+[debug] [2018-07-02T22:25:53.146Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-02T22:25:53.146Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/D0KXL7n4GOYjB0cLrHeL1GIGF06bWbeOmx_2Ly9XmfjWd-3PJTBUw1Ar0mA0YHl8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jul 02 2018 18:25:53 GMT-0400 (-04)
+[debug] [2018-07-02T22:25:54.268Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T22:25:54.312Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bora-ajudar-tg  
+  
+ Mon Jul 02 2018 18:25:54 GMT-0400 (-04)
+[debug] [2018-07-02T22:25:55.646Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T22:25:55.647Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bora-ajudar-tg/tokens  
+  
+ Mon Jul 02 2018 18:25:55 GMT-0400 (-04)
+[debug] [2018-07-02T22:25:57.442Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T22:25:57.446Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/bora-ajudar-tg?updateMask=usageSettings  
+ { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Mon Jul 02 2018 18:25:57 GMT-0400 (-04)
+[debug] [2018-07-02T22:25:57.447Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/bora-ajudar-tg?updateMask=usageSettings  
+ { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Mon Jul 02 2018 18:25:57 GMT-0400 (-04)
+[debug] [2018-07-02T22:26:00.640Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T22:26:00.922Z] <<< HTTP RESPONSE 200
+[info] ✔  Wrote functions/package.json
+[info] ✔  Wrote functions/index.js
+[debug] [2018-07-02T22:46:27.348Z] ----------------------------------------------------------------------
+[debug] [2018-07-02T22:46:27.352Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions
+[debug] [2018-07-02T22:46:27.352Z] CLI Version:   3.19.2
+[debug] [2018-07-02T22:46:27.352Z] Platform:      linux
+[debug] [2018-07-02T22:46:27.352Z] Node Version:  v8.11.3
+[debug] [2018-07-02T22:46:27.353Z] Time:          Mon Jul 02 2018 18:46:27 GMT-0400 (-04)
+[debug] [2018-07-02T22:46:27.353Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-02T22:46:27.366Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-02T22:46:27.366Z] > authorizing via signed-in user
+[debug] [2018-07-02T22:46:27.370Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bora-ajudar-tg  
+  
+ Mon Jul 02 2018 18:46:27 GMT-0400 (-04)
+[debug] [2018-07-02T22:46:29.293Z] Error: self signed certificate in certificate chain
+    at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:639:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+[error] 
+[error] Error: Server Error. self signed certificate in certificate chain
