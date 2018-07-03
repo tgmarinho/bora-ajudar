@@ -53,7 +53,7 @@ class Campanhas extends Component {
                                     <div className='progress'>
                                         <div className='progress-bar bg-success' role='progressbar' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100'></div>
                                     </div>
-                                    <p>Meta: R$ 5.000,00 / Atingidos: R$ 2.500,00</p>
+                                    <p>Meta: R$ {campanha.meta} / Atingidos: R$ {campanha.doado}</p>
                                     <div>
                                         <button className='btn btn-success' onClick={this.handleDonate(key)}>Contribuir</button>
                                     </div>
