@@ -22,6 +22,6 @@ request({
 })
     .then(data => {
         parse(data, (err, json) => {
-            console.log(json)
+            console.log(json.checkout.code[0])
         })
     })
