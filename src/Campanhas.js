@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import { Redirect } from 'react-router-dom'
 import base from './base'
 import axios from 'axios'
+
 
 class Campanhas extends Component {
 
@@ -26,7 +28,7 @@ class Campanhas extends Component {
                 valor: 3
             })
             .then(data => {
-                console.log(data)
+                window.location = data.data.url
             })
     }
 
@@ -72,6 +74,7 @@ class Campanhas extends Component {
     }
 
     render() {
+
 
 
         return (
