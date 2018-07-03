@@ -23,7 +23,7 @@ class Campanhas extends Component {
 
     handleDonate = key => {
         axios
-            .post('/api/donate', {
+            .post('url direto do cloudfunctions que for gerada', {
                 campanha: key,
                 valor: 3
             })

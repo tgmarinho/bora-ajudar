@@ -1,149 +1,232 @@
-[debug] [2018-07-02T22:24:59.424Z] ----------------------------------------------------------------------
-[debug] [2018-07-02T22:24:59.428Z] Command:       /usr/bin/node /usr/bin/firebase init
-[debug] [2018-07-02T22:24:59.428Z] CLI Version:   3.19.2
-[debug] [2018-07-02T22:24:59.429Z] Platform:      linux
-[debug] [2018-07-02T22:24:59.429Z] Node Version:  v8.11.3
-[debug] [2018-07-02T22:24:59.429Z] Time:          Mon Jul 02 2018 18:24:59 GMT-0400 (-04)
-[debug] [2018-07-02T22:24:59.429Z] ----------------------------------------------------------------------
+[debug] [2018-07-03T17:27:30.663Z] ----------------------------------------------------------------------
+[debug] [2018-07-03T17:27:30.665Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2018-07-03T17:27:30.665Z] CLI Version:   3.19.1
+[debug] [2018-07-03T17:27:30.665Z] Platform:      linux
+[debug] [2018-07-03T17:27:30.665Z] Node Version:  v8.11.3
+[debug] [2018-07-03T17:27:30.665Z] Time:          Tue Jul 03 2018 13:27:30 GMT-0400 (-04)
+[debug] [2018-07-03T17:27:30.665Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-07-02T22:24:59.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
-[debug] [2018-07-02T22:24:59.444Z] > authorizing via signed-in user
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  /home/tgmarinho/developer/bora-ajudar
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2018-07-02T22:25:11.863Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-07-02T22:25:11.864Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/D0KXL7n4GOYjB0cLrHeL1GIGF06bWbeOmx_2Ly9XmfjWd-3PJTBUw1Ar0mA0YHl8',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Mon Jul 02 2018 18:25:11 GMT-0400 (-04)
-[debug] [2018-07-02T22:25:12.269Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-02T22:25:12.302Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
-  
- Mon Jul 02 2018 18:25:12 GMT-0400 (-04)
-[debug] [2018-07-02T22:25:13.770Z] Error: self signed certificate in certificate chain
-    at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
-    at emitNone (events.js:106:13)
-    at TLSSocket.emit (events.js:208:7)
-    at TLSSocket._finishInit (_tls_wrap.js:639:8)
-    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
-[error] 
-[error] Error: Server Error. self signed certificate in certificate chain
-[debug] [2018-07-02T22:25:32.061Z] ----------------------------------------------------------------------
-[debug] [2018-07-02T22:25:32.064Z] Command:       /usr/bin/node /usr/bin/firebase init
-[debug] [2018-07-02T22:25:32.064Z] CLI Version:   3.19.2
-[debug] [2018-07-02T22:25:32.064Z] Platform:      linux
-[debug] [2018-07-02T22:25:32.064Z] Node Version:  v8.11.3
-[debug] [2018-07-02T22:25:32.064Z] Time:          Mon Jul 02 2018 18:25:32 GMT-0400 (-04)
-[debug] [2018-07-02T22:25:32.065Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2018-07-02T22:25:32.079Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
-[debug] [2018-07-02T22:25:32.079Z] > authorizing via signed-in user
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  /home/tgmarinho/developer/bora-ajudar
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2018-07-02T22:25:35.669Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
-  
- Mon Jul 02 2018 18:25:35 GMT-0400 (-04)
-[debug] [2018-07-02T22:25:38.604Z] <<< HTTP RESPONSE 200
-[info] 
-=== Database Setup
-[info] 
-[info] Firebase Realtime Database Rules allow you to define how your data should be
-[info] structured and when your data can be read from and written to.
-[info] 
-[debug] [2018-07-02T22:25:50.702Z] >>> HTTP REQUEST GET https://bora-ajudar-tg.firebaseio.com/.settings/rules.json  
-  
- Mon Jul 02 2018 18:25:50 GMT-0400 (-04)
-[debug] [2018-07-02T22:25:53.141Z] <<< HTTP RESPONSE 200
-[info] ✔  Database Rules for bora-ajudar-tg have been downloaded to database.rules.json.
-[info] Future modifications to database.rules.json will update Database Rules when you run
-[info] firebase deploy.
-[info] 
-=== Functions Setup
-[info] 
-[info] A functions directory will be created in your project with a Node.js
-[info] package pre-configured. Functions can be deployed with firebase deploy.
-[info] 
-[debug] [2018-07-02T22:25:53.145Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-07-02T22:25:53.145Z] > authorizing via signed-in user
-[debug] [2018-07-02T22:25:53.146Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-07-02T22:25:53.146Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/D0KXL7n4GOYjB0cLrHeL1GIGF06bWbeOmx_2Ly9XmfjWd-3PJTBUw1Ar0mA0YHl8',
+[debug] [2018-07-03T17:27:30.670Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-03T17:27:30.671Z] > authorizing via signed-in user
+[debug] [2018-07-03T17:27:30.672Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-03T17:27:30.672Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/eWqvCRjUt5zv8FDs2PFDgyaM3tLK0jtfNaPd-f9WKb2XgVTIgnU4okPaCxS_x8ZN',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Mon Jul 02 2018 18:25:53 GMT-0400 (-04)
-[debug] [2018-07-02T22:25:54.268Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-02T22:25:54.312Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bora-ajudar-tg  
+ Tue Jul 03 2018 13:27:30 GMT-0400 (-04)
+[debug] [2018-07-03T17:27:31.355Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:27:31.359Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bora-ajudar-tg  
   
- Mon Jul 02 2018 18:25:54 GMT-0400 (-04)
-[debug] [2018-07-02T22:25:55.646Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-02T22:25:55.647Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bora-ajudar-tg/tokens  
+ Tue Jul 03 2018 13:27:31 GMT-0400 (-04)
+[debug] [2018-07-03T17:27:32.785Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:27:32.785Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bora-ajudar-tg/tokens  
   
- Mon Jul 02 2018 18:25:55 GMT-0400 (-04)
-[debug] [2018-07-02T22:25:57.442Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-02T22:25:57.446Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/bora-ajudar-tg?updateMask=usageSettings  
- { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
- Mon Jul 02 2018 18:25:57 GMT-0400 (-04)
-[debug] [2018-07-02T22:25:57.447Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/bora-ajudar-tg?updateMask=usageSettings  
- { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
- Mon Jul 02 2018 18:25:57 GMT-0400 (-04)
-[debug] [2018-07-02T22:26:00.640Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-02T22:26:00.922Z] <<< HTTP RESPONSE 200
-[info] ✔  Wrote functions/package.json
-[info] ✔  Wrote functions/index.js
-[debug] [2018-07-02T22:46:27.348Z] ----------------------------------------------------------------------
-[debug] [2018-07-02T22:46:27.352Z] Command:       /usr/bin/node /usr/bin/firebase serve --only functions
-[debug] [2018-07-02T22:46:27.352Z] CLI Version:   3.19.2
-[debug] [2018-07-02T22:46:27.352Z] Platform:      linux
-[debug] [2018-07-02T22:46:27.352Z] Node Version:  v8.11.3
-[debug] [2018-07-02T22:46:27.353Z] Time:          Mon Jul 02 2018 18:46:27 GMT-0400 (-04)
-[debug] [2018-07-02T22:46:27.353Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2018-07-02T22:46:27.366Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-07-02T22:46:27.366Z] > authorizing via signed-in user
-[debug] [2018-07-02T22:46:27.370Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bora-ajudar-tg  
+ Tue Jul 03 2018 13:27:32 GMT-0400 (-04)
+[debug] [2018-07-03T17:27:34.320Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'bora-ajudar-tg'...
+[info] 
+[info] i  deploying functions, hosting
+[debug] [2018-07-03T17:27:37.410Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "firebase-admin": "~5.12.1",
+    "firebase-functions": "^1.0.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-07-03T17:27:37.411Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/bora-ajudar-tg?view=CONSUMER_VIEW  
   
- Mon Jul 02 2018 18:46:27 GMT-0400 (-04)
-[debug] [2018-07-02T22:46:29.293Z] Error: self signed certificate in certificate chain
-    at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
-    at emitNone (events.js:106:13)
-    at TLSSocket.emit (events.js:208:7)
-    at TLSSocket._finishInit (_tls_wrap.js:639:8)
-    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
+ Tue Jul 03 2018 13:27:37 GMT-0400 (-04)
+[debug] [2018-07-03T17:27:37.411Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/bora-ajudar-tg?view=CONSUMER_VIEW  
+  
+ Tue Jul 03 2018 13:27:37 GMT-0400 (-04)
+[debug] [2018-07-03T17:27:39.192Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:27:39.330Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2018-07-03T17:27:39.330Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bora-ajudar-tg  
+  
+ Tue Jul 03 2018 13:27:39 GMT-0400 (-04)
+[debug] [2018-07-03T17:27:40.672Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:27:40.672Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/818091840848:getServerAppConfig  
+  
+ Tue Jul 03 2018 13:27:40 GMT-0400 (-04)
+[debug] [2018-07-03T17:27:42.946Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-07-03T17:27:42.949Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/bora-ajudar-tg/configs  
+  
+ Tue Jul 03 2018 13:27:42 GMT-0400 (-04)
+[debug] [2018-07-03T17:27:45.405Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (41.89 KB) for uploading
+[debug] [2018-07-03T17:27:45.694Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/bora-ajudar-tg/locations/us-central1/functions:generateUploadUrl  
+  
+ Tue Jul 03 2018 13:27:45 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:19.406Z] <<< HTTP RESPONSE 503
+[debug] [2018-07-03T17:28:19.406Z] <<< HTTP RESPONSE BODY {
+  "error": {
+    "code": 503,
+    "message": "The service is currently unavailable.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[debug] [2018-07-03T17:28:19.408Z] TypeError: Cannot create property 'error' on string '{
+  "error": {
+    "code": 503,
+    "message": "The service is currently unavailable.",
+    "status": "UNAVAILABLE"
+  }
+}
+'
+    at module.exports (/usr/lib/node_modules/firebase-tools/lib/responseToError.js:11:16)
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:47:25)
+    at Request.self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
 [error] 
-[error] Error: Server Error. self signed certificate in certificate chain
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-03T17:28:24.308Z] ----------------------------------------------------------------------
+[debug] [2018-07-03T17:28:24.310Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2018-07-03T17:28:24.310Z] CLI Version:   3.19.1
+[debug] [2018-07-03T17:28:24.310Z] Platform:      linux
+[debug] [2018-07-03T17:28:24.310Z] Node Version:  v8.11.3
+[debug] [2018-07-03T17:28:24.310Z] Time:          Tue Jul 03 2018 13:28:24 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:24.310Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-03T17:28:24.316Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-03T17:28:24.317Z] > authorizing via signed-in user
+[debug] [2018-07-03T17:28:24.318Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bora-ajudar-tg  
+  
+ Tue Jul 03 2018 13:28:24 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:25.474Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:28:25.474Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bora-ajudar-tg/tokens  
+  
+ Tue Jul 03 2018 13:28:25 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:26.417Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'bora-ajudar-tg'...
+[info] 
+[info] i  deploying functions, hosting
+[debug] [2018-07-03T17:28:29.414Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "firebase-admin": "~5.12.1",
+    "firebase-functions": "^1.0.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-07-03T17:28:29.415Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/bora-ajudar-tg?view=CONSUMER_VIEW  
+  
+ Tue Jul 03 2018 13:28:29 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:29.415Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/bora-ajudar-tg?view=CONSUMER_VIEW  
+  
+ Tue Jul 03 2018 13:28:29 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:31.257Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:28:31.332Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2018-07-03T17:28:31.332Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bora-ajudar-tg  
+  
+ Tue Jul 03 2018 13:28:31 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:32.693Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:28:32.693Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/818091840848:getServerAppConfig  
+  
+ Tue Jul 03 2018 13:28:32 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:33.536Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-07-03T17:28:33.539Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/bora-ajudar-tg/configs  
+  
+ Tue Jul 03 2018 13:28:33 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:34.978Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (41.89 KB) for uploading
+[debug] [2018-07-03T17:28:35.275Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/bora-ajudar-tg/locations/us-central1/functions:generateUploadUrl  
+  
+ Tue Jul 03 2018 13:28:35 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:36.887Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T17:28:36.887Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-23b7bf97-b81e-4300-8c50-78606c534380/cf008587-d46a-4154-a7dd-54cd7b18f775.zip?GoogleAccessId=service-818091840848@gcf-admin-robot.iam.gserviceaccount.com&Expires=1530640716&Signature=jkN9zuj4QRImkKNMIQg8lrl7F2LiEvWXM7sqc3dY3HXbdNt1nBXslrUF9OMvOj1O1cNkk%2FJOSo8STiH2lguSE63zEE8ObPTvBPGYryzheueZvNbvlYWQeRxK9HJwMI0hUTsGSGiciuuqwreziehYYHdEIM%2BXj1uTBGcS7zrLOagHh7kbgSUFjW4h2xrM9HBQog44oqYGAWvTqhULuPqORET7yvtRPCku1ZMz5Z14MDcqb9jE3OirExeiBu9bRAQaI%2FYltPdeqX1wldWGMwWxvyQHbqLbUyBN6gaR766sEjcJ%2BasiE1U7tTkJ%2FSjErN7Y0MqVXFCemwMvtq0mp7rBwA%3D%3D  
+ ReadStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 65536,
+     buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+     length: 42891,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  path: '/tmp/firebase-functions-169094qh1sKd6hfa.zip',
+  fd: 15,
+  flags: 'r',
+  mode: 438,
+  start: undefined,
+  end: Infinity,
+  autoClose: true,
+  pos: undefined,
+  bytesRead: 42891 } 
+ Tue Jul 03 2018 13:28:36 GMT-0400 (-04)
+[debug] [2018-07-03T17:28:38.014Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: functions folder uploaded successfully
+[info] i  hosting: preparing build directory for upload...
+[debug] [2018-07-03T17:28:38.574Z] TypeError: no files or directories specified
+    at Object.module.exports (/usr/lib/node_modules/firebase-tools/node_modules/tar/lib/create.js:20:11)
+    at module.exports (/usr/lib/node_modules/firebase-tools/lib/prepareUpload.js:25:6)
+    at module.exports (/usr/lib/node_modules/firebase-tools/lib/deploy/hosting/deploy.js:29:10)
+    at _chain (/usr/lib/node_modules/firebase-tools/lib/deploy/index.js:26:38)
+    at /usr/lib/node_modules/firebase-tools/lib/deploy/index.js:29:14
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.

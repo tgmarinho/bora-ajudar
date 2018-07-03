@@ -6,8 +6,10 @@ const bodyParser = require('body-parser')
 
 const request = require('request-promise')
 const parse = require('xml2js').parseString
-
+const cors = require('cors')
 const app = express()
+
+app.use(cors())
 
 // admin.initializeApp(functions.config().firebase)
 admin.initializeApp()

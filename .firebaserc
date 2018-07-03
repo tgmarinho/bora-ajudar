@@ -1,5 +1,8 @@
 {
-    "projets": {
-        "default": "bora-ajudar-tg"
-    }
+  "projets": {
+    "default": "bora-ajudar-tg"
+  },
+  "projects": {
+    "borajudartg": "bora-ajudar-tg"
+  }
 }
