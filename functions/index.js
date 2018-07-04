@@ -10,9 +10,9 @@ const cors = require('cors')
 const app = express()
 
 app.use(cors())
-
-// admin.initializeApp(functions.config().firebase)
-admin.initializeApp()
+// precisa pegar a configuracao do banco de dados em prod
+admin.initializeApp(functions.config().firebase)
+// admin.initializeApp()
 
 const email = 'xx@gmail.com' // pagseguro
 const token = '91873213b21hb321g3213213213' // token pagseguro
