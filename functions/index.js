@@ -36,10 +36,10 @@ app.post('/donate', (req, res) => {
             token: token,
             email: email,
             currency: 'BRL',
-            itemId1: 'idCampanha',
+            itemId1: req.body.campanha,
             itemDescription1: 'Doação 1',
             itemQuantity1: '1',
-            itemAmount1: '2.00'
+            itemAmount1: req.body.valor
         },
         header: {
             'Content-Type': 'application/x-www-url-encoded; charset=UTF-8'
